@@ -41,9 +41,9 @@ packages = [{include = "buildarr_jellyseerr"}]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
-buildarr = ">=0.1.0"
-buildarr-sonarr = {optional = true}
-buildarr-radarr = {optional = true}
+buildarr = ">=0.1.0,<0.8.0"
+buildarr-sonarr = {version = ">=0.0.1", optional = true}
+buildarr-radarr = {version = ">=0.0.1", optional = true}
 
 [tool.poetry.group.dev.dependencies]
 black = "23.11.0"
